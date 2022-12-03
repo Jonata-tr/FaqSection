@@ -37,7 +37,7 @@ export const ShowAcordion = () => {
       <div className='faqs'>
         {acordionContent.map(values => (
           <ShowAnswers heading={values.heading} content={values.content}/>
-        ))}
+          ))}
       </div>
     </div>
   )

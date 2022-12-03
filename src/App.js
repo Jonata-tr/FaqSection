@@ -13,7 +13,6 @@ function App(props) {
           <div className='imgsPosition'>
             <ShowImages source={Box} id='box'/>
             <ShowPictures sourceDesk={womanDesktop} sourceMob='https://img3.gelbooru.com//samples/57/f9/sample_57f98ca6db3de7536c7807a6f79e9b95.jpg' source={womanMobile} alt='UmaMulherObservandoUmMunitorGigante' id={'woman'}/>
-            <ShowImages source={imgShadow} id='shadow'/>        
           </div>
         <ShowAcordion /> 
       </section>

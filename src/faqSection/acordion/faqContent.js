@@ -4,7 +4,7 @@ export const ShowAnswers = ({heading, content}) => {
       const show = document.querySelector(".respostas")
       show.classList.toggle("hide")
     }}>
-      <h2>{heading}</h2>
+      <span>{heading}</span>
       <div className="respostas hide">
         {content}
       </div>
