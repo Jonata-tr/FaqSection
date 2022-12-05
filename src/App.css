@@ -111,19 +111,22 @@ img{
   flex-direction: column;
 }
 
-.faqs span{
+.perguntas{
+  padding: 1.4rem 0;
+  height: fit-content;
   color: var(--Dark-grayish-blue);
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.perguntas{
-  padding: 1.4rem 0;
-  height: fit-content;
+.respostas{
+  height: 0;
+  overflow: hidden;
 }
 
-.hide{
-  display: none;
+.respostas.show{
+  height: auto;
+  max-height: 9999px;
 }
 
 @keyframes box {
